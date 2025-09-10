@@ -1,5 +1,54 @@
-.nav-link, .nav-link:focus, .nav-link:hover{
- color: #0f5132;
+#banner-parent{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 300px;
+}
+
+#banner-content{
+ width: 960px;
+ height: 300px;
+ background-color: #0f5132;
+}
+
+.nav-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.main-nav{
+ width: 960px;
+ background-color: #0f5132;
+ padding-bottom: 5px;
+}
+
+.nav-underline{
+ column-gap: 2rem
+}
+
+.main-nav .nav-link, .main-nav .nav-link:focus, .main-nav .nav-link:hover{
+ color: white;
  font-weight: bold;
- font-size: 18pt;
+ font-size: 16pt;
+}
+
+.pig-nav{
+ width: 960px;
+ background-color: #0f5132;
+ padding-bottom: 5px;
+}
+
+.pig-nav .nav-link, .pig-nav .nav-link:focus, .pig-nav .nav-link:hover{
+ color: white;
+ font-size: 14pt;
+}
+
+#content{
+ padding-top: 20px;
+ font-size: 14pt;
+}
+
+.container-sm{
+ max-width: 960px;
 }
