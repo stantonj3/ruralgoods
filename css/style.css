@@ -35,12 +35,11 @@
 
 .pig-nav{
  width: 960px;
- background-color: #0f5132;
  padding-bottom: 5px;
 }
 
 .pig-nav .nav-link, .pig-nav .nav-link:focus, .pig-nav .nav-link:hover{
- color: white;
+ color: #0f5132;
  font-size: 14pt;
 }
 
