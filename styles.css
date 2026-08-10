@@ -58,9 +58,18 @@ a {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
   font-weight: 700;
   font-size: 1.25rem;
   color: var(--brand-green);
+}
+
+.brand-logo {
+  width: auto;
+  height: 150px;
+  display: block;
 }
 
 .site-nav {
