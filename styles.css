@@ -68,8 +68,25 @@ a {
 
 .brand-logo {
   width: auto;
-  height: 150px;
+  height: 48px;
   display: block;
+}
+
+/* Accessible skip link */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  background: var(--brand-green);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  z-index: 9999;
+  font-weight: 600;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
 }
 
 .site-nav {
@@ -233,17 +250,18 @@ a {
 }
 
 .gallery-image {
-  min-height: 220px;
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
   border-radius: 18px;
-  background: var(--earth-light);
-  display: grid;
-  place-items: center;
-  color: var(--earth-medium);
-  font-weight: 700;
+  object-fit: cover;
+  display: block;
+  box-shadow: inset 0 0 0 1px rgba(15, 81, 50, 0.05);
 }
 
-.placeholder {
-  opacity: 0.85;
+.gallery-item {
+  display: grid;
+  gap: 1rem;
 }
 
 .contact-section .contact-grid {
